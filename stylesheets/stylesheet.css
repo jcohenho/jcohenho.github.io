@@ -107,9 +107,10 @@ header h2 {
   margin-bottom: 40px;
 }
 
-#github h3 {
+#github {
   text-align: center;
 }
+
 
 a.button {
   -moz-border-radius: 30px;
