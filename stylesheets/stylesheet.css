@@ -64,6 +64,7 @@ a:hover {
 }
 
 header {
+  text-align: center;
   padding-top: 35px;
   padding-bottom: 25px;
 }
@@ -319,12 +320,21 @@ dl dt {
 }
 
 footer {
+  text-align: center;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
   color: #aaa;
+}
+
+footer h1 {
+  font-family: 'Futura', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  letter-spacing: -1px;
+  font-size: 36px;
+  color: #303030;
+  line-height: 1.2;
 }
 
 footer a {
