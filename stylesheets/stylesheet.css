@@ -66,13 +66,13 @@ a:hover {
 header {
   text-align: center;
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 60px;
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-family: 'Futura', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
-  font-size: 48px;
+  font-size: 64px;
   color: #303030;
   line-height: 1.2;
 }
@@ -95,6 +95,15 @@ header h2 {
   margin: 0 auto;
 }
 
+
+
+.blue {
+  color: #1076a6;
+}
+.blue:hover {
+  color: #0c5d83;
+}
+
 #container .inner img {
   max-width: 100%;
 }
@@ -102,6 +111,7 @@ header h2 {
 .name {
   font-size: 18px;
   font-weight: bold;
+  color: #330;
 }
 
 #downloads {
@@ -110,6 +120,27 @@ header h2 {
 
 #github {
   text-align: center;
+}
+
+#portfolio {
+  margin-bottom:40px;
+}
+
+#portfolio h3 {
+  color: #330;
+  font-size: 24px;
+}
+
+#portfolio figure {
+  width: 290px;
+  height:190px;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 1px #dcd3c4, 2px 2px 2px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 0 0 1px #dcd3c4, 2px 2px 2px rgba(0,0,0,.1);
+}
+
+#about {
+
 }
 
 
@@ -330,7 +361,6 @@ footer {
 }
 
 footer h1 {
-  font-family: 'Futura', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 36px;
   color: #303030;
@@ -356,6 +386,13 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+.dark-blue {
+  color:#7ccff6;
+}
+.aqua {
+  color:#4bc2fa;
+}
 
 /* #Media Queries
 ================================================== */
