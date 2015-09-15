@@ -100,6 +100,7 @@ header h2 {
 .blue {
   color: #1076a6;
 }
+
 .blue:hover {
   color: #0c5d83;
 }
